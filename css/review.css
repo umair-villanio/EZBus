@@ -1,0 +1,276 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Times New Roman;
+}
+html, body{
+	height: 100%;
+}
+
+/*page margin*/
+.whole{
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+.container{
+	min-height: 100%;
+}
+
+/*Site title*/
+#Name{
+	text-decoration:none;
+	color: black;
+}
+
+/*Logo customization*/
+.logo img{
+	width: 200px;
+	height: 120px;
+	border: 3px solid none;
+	border-radius: 100px;
+	margin-top:10px;
+}
+.Username{
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+/*user logo customization*/
+ #prfuser{
+	 width:80px;
+	 height:80px;
+	 float:center;
+ }
+ /*Profile drop down list*/
+ .arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+ }
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/*dropdown button*/
+.editbutton{
+	background-color: white;
+	color:white;
+	padding:3px;
+	border: none;
+	cursor:pointer;
+}
+.editbutton:hover, .editbutton:focus{
+	background-color: grey;
+}
+/*positioning of dropdown list*/
+.prfedit{
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+/*dropdown content*/
+.droplist{
+	display: none;
+	position:absolute;
+	background-color: #f1f1f1;
+	overflow: auto;
+	z-index: 1;
+	min-width: 160px;
+	right:0;
+}
+/*links inside dropdown list*/
+.droplist a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 12px;
+}
+/*color change when hovering*/
+.prfedit a:hover{
+	background-color: grey;
+}
+/*display dropdown when clicked*/
+.show{
+	display: block;
+}
+.LogIn 
+{
+	text-decoration: none;
+}
+
+.LogIn a:hover
+{
+	color: blue;
+}
+
+.register
+{
+	text-decoration: none;
+}
+
+.register a:hover
+{
+	color: blue;
+}
+
+
+/*table width inside the header*/
+table{
+	width: 100%;
+}
+
+
+/*navigation bar customization*/
+ul.list{
+	list-style-type: none;
+	background-color:MediumSeaGreen;
+	padding: 0;
+	margin-top:15px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+li a {
+	padding: 14px 18px 14px 	;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	float:left;
+	color: black;
+}
+
+.btn{
+	border: none;
+	background-color: MediumSeaGreen;
+	color:black;
+	text-align: center;
+	font-size: 16px;
+	margin:4px 2px;
+	transition: 0.4s;
+}
+.btn:hover{
+  background-color: #228B22;
+}
+
+/*Rating customization*/
+.rating{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50% ,-50%) rotateY(180deg);
+	display: flex;
+}
+.review{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.rating input
+{
+	display: none;
+}
+.ratig label
+{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+	background: #ccc;
+}
+.rating label:before
+{
+	content:'\f005';
+	font-family:fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 50px;
+	color: #101010;
+}
+.rating label:after
+{
+	content:'\f005';
+	font-family:fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	color: red;
+	top: 0;
+	opacity: 0;
+	transition: .5s; 	
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+}
+.review_area
+{
+	margin-left: 100px;
+}
+
+.sumbitBTN
+{
+	margin-left: 100px; 
+}
+/*rating table customization*/
+.rating_table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.rating_table  td, .rating_table  th {
+  border: 0px hidden ;
+  padding: 8px;
+}
+
+.rating_table  tr:nth-child(even){background-color: #e6ffee;}
+.rating_table  tr:nth-child(odd){background-color: #b3ffcc;}
+
+.rating_table  tr:hover {background-color: #ddd;}
+
+.rating_table  th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  background-color: #40bf80;
+  color: white;
+  border-color: white;
+}
+
+/*footer customization*/
+.ftr{
+	background-color: #778899;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+	padding-top:20px;
+	padding-bottom:30px;
+	
+}
+.FQs{
+	text-decoration: none;
+}
+.FQs:hover{
+	color: red;
+}
+.TandC {
+	text-decoration: none;
+}
+.TandC:hover{
+	color: blue;
+}
+
+#footerTable{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+}

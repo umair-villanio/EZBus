@@ -1,0 +1,150 @@
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+     width: 100%;
+    text-align: center;
+    
+}
+
+.table td,
+.table th {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.table tr:hover{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.table tr:nth-child(even) {
+    background-color: #ece6e6;
+}
+
+.table td:first-child {
+    color: black;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: black;
+    /* position: sticky;
+    top: 46px; */
+    background-color:  #f2f2f2;;
+
+}
+
+  /*-------------------------------------BUTTONS EDIT DELETE-----------------------------*/
+
+  .editbtn,
+  .deletebtn,
+  .addbtn {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    margin: auto;
+    box-shadow: 1px 1px 1px rgb(143, 142, 142);
+    border-radius: 5px;
+    border: none;
+   
+  }
+
+  .editbtn:hover,
+  .deletebtn:hover,
+  .addbtn:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .editbtn {
+    background-color: rgb(49, 49, 245);
+  }
+
+  .deletebtn {
+    background-color: red;
+  }
+
+  .addbtn {
+    background-color: rgb(49, 49, 245);
+  }
+
+  /*-------------------------------------BUS IMAGE-----------------------------*/
+  .busimg {
+    height: 50px;
+
+  }
+
+   /*-------------------------------------SEARCH-------------------------*/
+  body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+  }
+  .search:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .searchTerm {
+    width: 100%;
+    border: 1px solid rgb(49, 49, 245);
+    border-right: none;
+    padding: 7px;
+    height: 19px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+
+  .searchTerm:focus {
+    color: rgb(49, 49, 245);
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 35px;
+    border: 1px solid rgb(49, 49, 245);
+    border-left: none;
+    background: white;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    /*Z INDEX*/
+
+
+  }
+
+  /*Resize the wrap to see the search bar change!*/
+  .wrap {
+    width: 15%;
+    float: right;
+    margin-right: 30px;
+
+  }
+
+  .wrap img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 4px;
+    top:2px;
+  }
+

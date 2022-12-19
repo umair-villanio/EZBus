@@ -1,0 +1,51 @@
+body
+{
+	background : white;
+}
+
+.segment
+{
+	width: 95%;
+	height: 80%;
+	margin: 100px auto;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.segment .Head
+{
+	background: #fff;
+	border-radius; 7px 7px 0px 0px;
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+	font-family: "proxima nova";
+}
+
+.faqs
+{
+	padding: 0px 20px 20px;;
+}
+
+:: -webkit-details-marker
+{
+	float: right;
+	margin-top: 3px;
+}
+
+details
+{
+	background: #f6f6f6;
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 20px;
+	font-family:"Rubik";
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+details summary
+{
+	outline: none;
+}

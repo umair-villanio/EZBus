@@ -1,0 +1,42 @@
+header {
+    background-color: #04AA6D;
+    text-align: center;
+    color: #EBECF0;
+    padding: 5px ;
+}
+
+
+footer{
+    position: relative;
+    background-color: #04AA6D;
+
+    bottom: 0;
+    padding: 5px;
+}
+
+#bus_details_container {
+    min-height: 70vh;
+    
+}
+
+#bus_details {
+    margin: 30px 20vh 30px 20vh;
+}
+
+.bus_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#bus_info {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+
+#bus_image , #bus_info{
+    display: inline-block;
+    vertical-align: middle;
+}
+

@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+
+.main{
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*page margin*/
+.whole{
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+.cntr{
+  position: absolute;
+  top:0px;
+	min-height: 100%;
+}
+
+/*Site title*/
+#Name{
+	text-decoration:none;
+	color: black;
+}
+
+/*Logo customization*/
+.logo img{
+	width: 200px;
+	height: 120px;
+	border: 3px solid none;
+	border-radius: 100px;
+	margin-top:10px;
+}
+.Username{
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+/*table width inside the header*/
+table{
+	width: 100%;
+}
+
+
+/*navigation bar customization*/
+ul.list{
+	list-style-type: none;
+	background-color:MediumSeaGreen;
+	padding: 0;
+	margin-top:15px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+li a {
+	padding: 14px 18px 14px 	;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	float:left;
+	color: black;
+}
+.btn{
+	border: none;
+	background-color: MediumSeaGreen;
+	color:black;
+	text-align: center;
+	font-size: 16px;
+	margin:4px 2px;
+	transition: 0.4s;
+}
+.btn:hover{
+  background-color: #228B22;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.516);
+  padding: 35px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  height:630px;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 2px solid MediumSeaGreen;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box textarea{
+    height: 70px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 2px solid MediumSeaGreen;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+.container input[type="text"]:focus,.container input[type="password"]:focus, .container textarea:focus{
+    width: 100%;
+    border-color: rgb(255, 21, 0);
+}
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(47, 255, 71);
+ }
+  form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: MediumSeaGreen;
+  }
+  form .button input:hover{
+     transform: scale(0.99); 
+     color: #228B22;
+     background: aliceblue;
+     border:1px solid#228B22;
+     }
+    @media(max-width: 584px){
+    .container{
+     max-width: 100%;
+   }
+
+ }
+ 
+
+
+
+

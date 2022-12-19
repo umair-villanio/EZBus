@@ -1,0 +1,269 @@
+input[type=text],
+input[type=number] {
+    padding: 8px;
+    margin: 3px;
+    width: 95%;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+
+}
+
+input[type=text],
+input[type=number],
+input[type=radio],
+input[type=file],
+input[type=time],
+#rDetails,
+#station,
+#route {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.03);
+
+}
+
+
+#bDetails{
+    width:95%;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+
+}
+
+#rDetails {
+    width: 95%;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+input[type=time],
+select {
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 3px;
+}
+
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(49, 49, 245);
+    ;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 1px rgb(143, 142, 142);
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=submit]:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.btn-file:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.busdetails {
+    margin-left: 13px;
+}
+
+.busdetails label {
+    margin-left: 4px;
+}
+
+.routedetails {
+    margin-left: 13px;
+}
+
+.routedetails label {
+    margin-left: 4px;
+}
+
+
+
+    /*-------------------------------------JAVASCRIPT INPUT TAGS-----------------------------*/
+
+    #stationprice input {
+
+        width: 40%;
+        margin: 3px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+    }
+
+    #stationprice input[type=number] {
+        width: 20%;
+    }
+
+    #stationprice:last-child{
+        margin-bottom: 18px;
+    }
+
+    .stationhead label {
+        width: 42%;
+        float: left;
+    }
+
+
+    /* ###################################################RADIO BUTTON ############################################*/
+    .container {
+        display: block;
+        position: relative;
+        float: left;
+        padding-left: 20px;
+        margin-bottom: 12px;
+        cursor: pointer;
+
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: rgb(206, 212, 218);
+        border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input~.checkmark {
+        background-color: rgb(172, 173, 173);
+        
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container input:checked~.checkmark {
+        background-color: rgb(49, 49, 245);
+        
+
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked~.checkmark:after {
+        display: block;
+    }
+ 
+    .maincont>div{
+        padding: 10px;
+    }
+
+.radiocont{
+    padding-top: 10px;
+}
+
+
+/*##########################################FILE TYPE##########################################*/
+#bImg{
+    border:none;
+    outline: none;
+    background-color: aqua;
+    width: 20%;
+}
+    
+.btn-file{
+    background-color: rgb(49, 49, 245);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px rgb(143, 142, 142);
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+  /* The container */
+  .containerchk {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .containerchk input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkedmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .containerchk:hover input~.checkedmark {
+    background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .containerchk input:checked~.checkedmark {
+    background-color: #2196F3;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkedmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .containerchk input:checked~.checkedmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .containerchk .checkedmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

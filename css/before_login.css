@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Times New Roman;
+}
+html, body{
+	height: 100%;
+}
+
+/*page margin*/
+.whole{
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+.container{
+	min-height: 100%;
+}
+/*Site title*/
+#Name{
+	text-decoration:none;
+	color: black;
+}
+
+/*Logo customization*/
+.logo img{
+	width: 200px;
+	height: 120px;
+	border: 3px solid none;
+	border-radius: 100px;
+	margin-top:10px;
+}
+.Username{
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+/*user logo customization*/
+ #prfuser{
+	 width:80px;
+	 height:80px;
+	 float:center;
+ }
+ /*Profile drop down list*/
+ .arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+ }
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/*dropdown button*/
+.editbutton{
+	background-color: white;
+	color:white;
+	padding:3px;
+	border: none;
+	cursor:pointer;
+}
+.editbutton:hover, .editbutton:focus{
+	background-color: grey;
+}
+/*positioning of dropdown list*/
+.prfedit{
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+/*dropdown content*/
+.droplist{
+	display: none;
+	position:absolute;
+	background-color: #f1f1f1;
+	overflow: auto;
+	z-index: 1;
+	min-width: 160px;
+	right:0;
+}
+/*links inside dropdown list*/
+.droplist a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 12px;
+}
+/*color change when hovering*/
+.prfedit a:hover{
+	background-color: grey;
+}
+/*display dropdown when clicked*/
+.show{
+	display: block;
+}
+/*table width inside the header*/
+table{
+	width: 100%;
+}
+
+
+/*navigation bar customization*/
+ul.list{
+	list-style-type: none;
+	background-color:MediumSeaGreen;
+	padding: 0;
+	margin-top:15px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+li a {
+	padding: 14px 18px 14px 	;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	float:left;
+	color: black;
+}
+/**search button*/
+.btn{
+	border: none;
+	background-color: MediumSeaGreen;
+	color:black;
+	text-align: center;
+	font-size: 16px;
+	margin:4px 2px;
+	transition: 0.4s;
+}
+.btn:hover{
+  background-color: #228B22;
+}
+.bttn {
+  border: solid;
+  background-color: MediumSeaGreen;
+  margin-top: 20px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* Green */
+.buss {
+  color: Black;
+}
+
+.buss:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.aboutUs{
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+/*footer customization*/
+.ftr{
+	background-color: #778899;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+	padding-top:20px;
+	padding-bottom:30px;
+	
+}
+.FQs{
+	text-decoration: none;
+}
+.FQs:hover{
+	color: red;
+}
+.TandC {
+	text-decoration: none;
+}
+.TandC:hover{
+	color: blue;
+}
+
+#footerTable{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+}
